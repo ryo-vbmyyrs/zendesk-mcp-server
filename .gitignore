@@ -1,0 +1,22 @@
+# このプロジェクトで Git 管理するファイル・ディレクトリ:
+# - src/
+# - .gitignore
+# - .prettierrc.json
+# - package-lock.json
+# - package.json
+# - tsconfig.json
+#
+# それ以外はすべて除外
+
+# すべてのファイルとディレクトリを除外
+*
+
+# 管理したいファイル・ディレクトリのみを明示的に含める
+!.gitignore
+!.prettierrc.json
+!package-lock.json
+!package.json
+!tsconfig.json
+!README.md
+!src/
+!src/**
